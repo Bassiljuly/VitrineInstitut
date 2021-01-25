@@ -1,0 +1,345 @@
+/* GENERALE */
+html {
+  font-family: font-family : Impact, fantasy ;
+  font-style: normal;
+  color: 	#708090;
+  margin: 0 auto;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color :	#708090;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+p {
+  line-height: 30px;
+}
+
+li {
+  padding-top: 15px;
+}
+
+/* HEADER */
+
+header {
+  background-image:linear-gradient(to top, #DCDCDC,#FFB6C1 );
+  border : 2px solid #fff;
+}
+
+h1 {
+  text-align: center;
+  font-family : Impact, fantasy ;
+  /* text-transform: uppercase; */
+  font-size : 70px;
+  text-shadow:   -1px -1px 0 #FFB6C1,
+    3px -3px 0 #DCDCDC,
+    -1px 1px 0 #DCDCDC,
+     4px 4px 0 #DCDCDC;color:#fff;
+background-color:linear-gradient(to top, #DCDCDC,#FFB6C1 );
+}
+
+nav {
+  display : flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+nav a:hover {
+    color : #708090;
+    font-size: 18px;
+}
+
+nav a{
+  text-decoration: none;
+  color :#fff;
+}
+
+/* MAIN */
+
+.text1, .lesservices {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  max-width: 75%;
+  color : #01;
+}
+
+/* PAGE HOME */
+
+.submenu{
+  display: none;
+}
+
+.submenu li {
+  list-style-type: none;
+}
+
+.submenu a {
+    color : #fff;
+}
+
+.show {
+  display: block;
+}
+
+
+
+/* decalage du <i> :presentation services regard */
+ .fa-caret-down:before  {
+  position : relative;
+  top : 5px;
+  left : 8px;
+}
+
+
+.linstitut {
+  margin : 0 auto;
+  margin-bottom: 50px;
+  font-size: 20px;
+  max-width: 90%;
+
+}
+
+.lesservices a:hover, .regard:hover {
+  font-size: 17px;
+}
+
+main {
+  margin-top: 0;
+  background-image:linear-gradient(to top,#FFFAFA, #DCDCDC);
+  /* margin-bottom: 40px; */
+}
+
+
+
+main section.img {
+  background-image:linear-gradient(to top, #DCDCDC,  #FFB6C1 );
+  padding : 40px ;
+  margin-bottom: 40px;
+}
+
+main section.text1 {
+  background-image:linear-gradient(to top, #FFB6C1, #DCDCDC );
+  border-radius: 30px 30px ;
+  max-width: 80% ;
+  margin-top: 60px;
+}
+
+main::after {
+  margin-top: 40px;
+  width: 100%;
+  content: "";
+  display: block;
+  background-color: #fff;
+  height: 3px;
+}
+
+.img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.img img{
+ width: 170px;
+ border-radius: 30px 30px;
+ border: 2px solid white
+}
+
+.imgpresentation img {
+   height: 100%;
+   max-width: 100%;
+   padding: 0px;
+   margin : 0 auto;
+}
+
+
+h2 {
+  margin: 0 auto;
+  font-size: 45px;
+  color : white;
+  /* background-image:linear-gradient(to top,#FFFAFA, #CD5C5C); */
+  /* border-radius: 30px 30px 30px; */
+  padding: 8px;
+  margin: 30px;
+
+}
+
+h3 {
+  margin : 0 auto;
+  padding-top: 30px;
+  font-size: 25px;
+  border-radius: 30px 30px 30px;
+  background-image:linear-gradient(to top, #D3D3D3,#FFFAFA );
+  background-color: white	;
+  padding: 6px;
+  margin: 25px;
+  color:#fff;
+}
+
+h4  {
+  font-size: 16px;
+}
+
+.text1 h4 {
+  font-size: 20px;
+  background-color: #000080	;
+  margin: 0 auto;
+  border-radius: 30px 30px 30px;
+  color : white;
+  padding: 8px;
+  max-width: 60%;
+}
+
+/* FORMULAIRE  PAGE CONTACT*/
+.formulaire {
+  padding-top: 100px;
+  margin :0px;
+  padding-bottom: 0px;
+}
+form {
+  margin: 0 auto;
+  border: 3px solid #C0C0C0;
+  border-radius: 30px 30px ;
+  padding : 20px;
+  max-width: 60%;
+  margin-bottom: 100px;
+  background-color: #fff;
+}
+
+form input, form textarea {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 40%;
+  background-color: #fff	;
+  text-align: center;
+  border-radius: 30px 30px ;
+}
+
+input .submit  {
+  padding: 0 auto;
+}
+
+.submit {
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #DCDCDC;
+  border : 2px solid grey;
+  text-align: center;
+
+}
+
+#message {
+  height : 100px;
+  width: 80%;
+  border-radius: 30px 30px;
+}
+
+fieldset {
+  margin-top: 20px;
+  background-image:linear-gradient(to top, #DCDCDC,#FFB6C1 );
+}
+
+main section.map {
+  display : block;
+  margin : 0px;
+  padding :0px;
+}
+main .pageform {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+iframe {
+  width: 100%;
+  height: 50%;
+}
+
+/* BLANCHIMENT DENTAIRE */
+
+.prix {
+  color: black;
+  font-weight: bold;
+}
+
+.link a:hover{
+  font-size: 18px;
+  color: #fff;
+}
+
+
+/* BBGlow */
+
+.bbglowlist {
+  list-style-position:inside;
+  list-style-type:circle;
+
+
+}
+
+/* CILS */
+
+.imgcils img {
+  border-radius: 30px 30px;
+  border: 2px solid white;
+
+}
+
+main section.imgcils {
+  background-image:linear-gradient(to top, #DCDCDC,  #FFB6C1 );
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* FOOTER */
+
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 13px;
+  background-image:linear-gradient(to bottom, #DCDCDC,#FFB6C1 );
+}
+
+footer table, footer table td {
+  border : 1px solid white;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 6px;
+}
+
+footer table tr {
+  padding : 10px;
+}
+
+footer table {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+i {
+  font-size: 30px;
+}
+
+.footfollow p {
+  display :flex;
+  flex-direction: column;
+}
+
+.footfollow, .foothoraires {
+  margin-left: 120px;
+}
+
+.footfollow a:hover {
+  color: #fff;
+  font-size: 15px;
+}
