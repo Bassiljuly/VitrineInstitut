@@ -1,3 +1,0 @@
-# mabeaute
-# InstitutBeaute
-# VitrineInstitut

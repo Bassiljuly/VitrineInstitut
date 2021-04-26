@@ -2,12 +2,12 @@
 <?php include('header.php') ?>
 
 
+
 	<main class="pageform">
-
-
+	<!-- <p><?php echo($message);?></p> -->
 		<section class="formulaire">
 			<h2>Formulaire de contact</h2>
-			<form id="contact" method="post" action="../php/contactv2.php">
+			<form id="contact" method="POST" action="../php/contactv2.php">
 				<fieldset><legend>Vos coordonnées</legend>
 					<p><label for="nom">Nom :</label><input type="text" id="nom" name="nom" /></p>
 					<p><label for="email">Email :</label><input type="text" id="email" name="email" /></p>
@@ -20,7 +20,8 @@
 
 		<input type="submit" class="submit"  name="envoi" value="Envoyer" />
 			</form>
-		</section>
+		</section> 
+
 
 		<section class="map">
 					<div class="iframe">
